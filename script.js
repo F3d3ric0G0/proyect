@@ -1,4 +1,3 @@
-console.log("hola mundo!");
 let isLogin = true;
 
 const loginFormHTML = `
