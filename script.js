@@ -55,7 +55,7 @@ function toggleForm() {
   const loginButton = document.getElementById("login-button");
   const registerButton = document.getElementById("register-button");
   const toggleText = document.getElementById("toggle-form-text");
-
+  console.log("aca");
   if (isLogin) {
     formTitle.innerText = "Registrarse";
     formContent.innerHTML = registerFormHTML;
